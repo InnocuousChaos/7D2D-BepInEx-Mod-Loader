@@ -33,7 +33,7 @@ Typically, BepInEx loads mods from BepInEx\patchers and BepInex\plugins; indeed 
 This is a BepInEx patcher that allows us to load patchers and plugins from a folder specified by the doorstop_config.ini file. This location is defaulted to "C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods" for the typical Steam install, but if you wish to load mods from a different folder, or have 7D2D instlaled in a different location, you can change that here. Specifically, it looks for DLLs inside of a patchers folder, and DLLs inside a plugins folder.
 
 #### DMTBridgeLoader
-This will scan the Mods folder for mods, which it recognizes by looking for a ModInfo.xml inside the mod folder. Then it checks Harmony folders for dlls that implement the DMTs IHarmony interface, and loads them into the game. Note that currently this doesn't support compiling cs files the way DMT used to, it only checks for DLLs.
+This will scan the Mods folder for mods, which it recognizes by looking for a ModInfo.xml inside the mod folder. Then it checks Harmony folders for dlls that implement the DMTs IHarmony interface, and loads them into the game. Note that currently this doesn't support compiling cs files, it only checks for DLLs.
 
 #### Warning
 DMT support is included for legacy mods but considered Deprecated. Future development should be done with the BepInEx Patchers and Plugins, and DMT Harmony mods should be migrated to BepInEx implementations.
@@ -46,6 +46,6 @@ DMT support is included for legacy mods but considered Deprecated. Future develo
 #### HarmonyX
 - https://github.com/BepInEx/HarmonyX
 #### DMTBridgeLoader:
-- https://github.com/InnocuousChaos/DMTBridgeLoaderPlugin forked from SphereII
+- https://github.com/SphereII/DMTBridgeLoaderPlugin
 #### MultiFolderLoader:
 - https://github.com/BepInEx/BepInEx.MultiFolderLoader
