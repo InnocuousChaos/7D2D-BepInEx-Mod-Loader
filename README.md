@@ -7,6 +7,8 @@ This is a WIP combination of tools to load 7D2D through BepInex, which means no 
 
 ## Quick Start for Mod Users:
 ### Installation Instructions
+Download and run https://github.com/InnocuousChaos/7D2D-BepInEx-Mod-Loader/releases/download/1.0/7.Days.To.Die.exe to automatically extract files intoo Steam install folder.
+- or -
 Download and extract https://github.com/InnocuousChaos/7D2D-BepInEx-Mod-Loader/releases/download/1.0/7D2D-BepInEx-Mod-Loader.zip (or grab the contents of the 7Day to Die folder from the source) into your 7 Days to Die root directory.
 ### Installing Mods
 Correctly formatted mods should be downloaded and placed into the Mods folder, exactly the same way as pure modlets.
